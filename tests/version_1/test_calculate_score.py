@@ -93,7 +93,7 @@ def test_six_ones():
     expected = 4000
     assert actual == expected
 ""
-@pytest.mark.skip("pending")
+# @pytest.mark.skip("pending")
 @pytest.mark.parametrize(
     "test_input,expected",
     [
@@ -140,7 +140,7 @@ def test_six_ones():
         ((1, 1, 1, 2, 2, 2), 1200),
     ],
 )
-@pytest.mark.skip("pending")
+# @pytest.mark.skip("pending")
 def test_all(test_input, expected):
     actual = GameLogic.calculate_score(test_input)
     assert actual == expected
