@@ -17,6 +17,7 @@ class GameLogic:
                 num_count += 1
                 if num_count == 3:
                     three_pairs = True
+
         scores_map = {
             (1, 1, 1, 1): 2000, # Four of a kind of 1s
             (2, 2, 2, 2): 400,  # Four of a kind of 2s
@@ -36,10 +37,6 @@ class GameLogic:
             (4, 4, 4, 4, 4, 4): 1600,  # Six of a kind of 4s
             (5, 5, 5, 5, 5, 5): 2000,  # Six of a kind of 5s
             (6, 6, 6, 6, 6, 6): 2400,  # Six of a kind of 6s
-            # (1, 1, 2, 2, 3, 3): 1500,  # three pairs
-            # (4, 4, 5, 5, 6, 6): 1500,  # three pairs
-            # (2, 2, 3, 3, 6, 6): 1500,  # three pairs
-            # (2, 2, 3, 3, 6, 6): 1500,  # three pairs
             (1, 2, 3, 4, 5, 6): 1500,  # Straight
         }
 
@@ -72,8 +69,3 @@ class GameLogic:
     @staticmethod
     def roll_dice(num_dice):
         return [random.randint(1, 6) for _ in range(num_dice)]
-    
-if __name__ == "__main__":
-    game_logic = GameLogic()
-
-    print(game_logic.calculate_score(game_logic.roll_dice(6)))
