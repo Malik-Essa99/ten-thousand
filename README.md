@@ -53,3 +53,18 @@ Example :
         # rolls = [(2 ,3 ,1 ,3 ,1 ,2) ,(4 ,1 ,4 ,4 ,3 ,4),(3 ,2 ,3 ,2 ,1 ,4)]  # hot_dice.sim
         # rolls = [(2 ,3 ,1 ,3 ,4 ,2) ,(4 ,2 ,4 ,4 ,6),(3 ,2 ,3 ,2 ,1 ,4)]  # repeat_roller.sim
         # rolls = [(2, 2, 4, 6, 3, 3)]  # Losing roll (Zilch)
+
+
+------
+
+## Lab 09
+### project: Ten Thousand - version 4
+### Author: Malik Al Hudrub, Mones Odetallah, Sajeda Alrababah
+## Driver : Malik Alhudrub
+## Navigators: Mones Odetallah, Sajeda Alrababah
+## How to initialize/run your application:
+### python ten-thousand/ten_thousand/game_logic.py
+## Testing
+### How do you run tests?
+## run bots.py
+
